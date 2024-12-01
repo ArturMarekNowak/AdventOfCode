@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 
+	//#region
 	locationsOne := []int{
 		83989,
 		15707,
@@ -2005,6 +2006,7 @@ func main() {
 		98205,
 		52941,
 		16747}
+	//#endregion
 
 	numberOfOccurencesInLocationsTwo := make(map[int]int)
 

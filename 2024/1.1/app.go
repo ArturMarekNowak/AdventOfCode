@@ -8,6 +8,7 @@ import (
 
 func main() {
 
+	//#region
 	locationsOne := []int{
 		83989,
 		15707,
@@ -2009,6 +2010,7 @@ func main() {
 		98205,
 		52941,
 		16747}
+	//endregion
 
 	slices.Sort(locationsOne)
 	slices.Sort(locationsTwo)
